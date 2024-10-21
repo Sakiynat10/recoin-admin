@@ -1,0 +1,13 @@
+.active{
+    background-color: rgb(180, 180, 238);
+}
+
+.navlink{
+    display:flex;
+    align-items:center;
+    padding:5px;
+    width:100%;
+    margin-bottom:0;
+    z-index:2;
+    border-radius:4px;
+}
