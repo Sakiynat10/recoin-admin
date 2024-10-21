@@ -37,7 +37,7 @@ const Sidebar = () => {
               Dashboard
             </NavLink>
           </CommandItem>
-          <CommandItem className="py-0">
+          <CommandItem className="py-0 ">
             <NavLink className="navlink" href="/posts" >
             <Newspaper className="z-50 mr-2 h-4 w-4"/>
               Posts
