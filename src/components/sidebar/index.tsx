@@ -11,7 +11,7 @@ import {
   CommandSeparator,
   CommandShortcut,
 } from "@/components/ui/command";
-import NavLink from '../navlink';
+import NavLink from './../navlink';
 
 import {
   LayoutDashboard,
@@ -39,7 +39,7 @@ const Sidebar = () => {
           </CommandItem>
           <CommandItem className="py-0">
             <NavLink className="navlink" href="/posts" >
-            <Newspaper className="z-50 mr-2 h-4 w-4" />
+            <Newspaper className="z-50 mr-2 h-4 w-4"/>
               Posts
             </NavLink>
           </CommandItem>
