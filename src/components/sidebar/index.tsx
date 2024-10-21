@@ -1,6 +1,6 @@
 "use client";
 import "./style.css"
-import React, { useState } from 'react';
+import React from 'react';
 import {
   Command,
   CommandEmpty,
@@ -11,8 +11,7 @@ import {
   CommandSeparator,
   CommandShortcut,
 } from "@/components/ui/command";
-import { usePathname } from 'next/navigation';
-import NavLink from './../navlink';
+import NavLink from '../navlink';
 
 import {
   LayoutDashboard,
@@ -25,11 +24,6 @@ import {
 
 
 const Sidebar = () => {
-  const pathname = usePathname();
-//   const [active, setActive] = useState(true);
-
-  // Function to check if a path is active
-//   const isActive = (path) => pathname === path;
 
   return (
     <Command className='bg-secondary rounded-none px-1'>
