@@ -13,7 +13,7 @@ export default function Home() {
         <DashboardCard title={"Comments"} count={320} icon=<User className="text-slate-500" size={72} />  />
         <DashboardCard title={"Archives"} count={420} icon=<MessageCircle className="text-slate-500" size={72}/>  />
       </div>
-      <PostTable title="Latest Posts" limit={5}/>
+      <PostTable title="Latest Posts"/>
     </>
   );
 }
