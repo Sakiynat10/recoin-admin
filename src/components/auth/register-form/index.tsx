@@ -55,7 +55,7 @@ const RegisterForm = () => {
     },
   });
 
-  const handleSubmit = (data: z.infer<typeof formSchema>) => {
+  const handleSubmit = () => {
     router.push('/');
   };
 

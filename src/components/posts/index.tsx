@@ -11,14 +11,12 @@ import {
 
 import Link from "next/link";
 import posts from "@/data/posts";
-import {Post} from "@/types/posts"
 
 interface PostsTableProps {
-  limit?:number;
   title?:string;
 }
 
-const PostTable = ({limit , title}: PostsTableProps) => {
+const PostTable = ({title}: PostsTableProps) => {
 
   return (
     <div className='mt-10'>

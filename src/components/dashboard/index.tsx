@@ -1,5 +1,4 @@
 import React from 'react'
-import { Newspaper } from "lucide-react"
 import { Card } from '@/components/ui/card';
 import { CardContent } from '@/components/ui/card';
 import {LucideIcon} from "lucide-react"
