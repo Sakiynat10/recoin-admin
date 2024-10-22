@@ -17,7 +17,7 @@ import ThemeToggler from '../ui/theme-toggler'
 
 const Navbar = () => {
   return (
-    <div className='bg-primary dark:bg-slate-700 text-white py-2 px-5 flex justify-between'>
+    <div className='fixed top-0 w-[100%] z-50 bg-primary dark:bg-slate-700 text-white py-2 px-5 flex justify-between'>
         <Link href="/">
             <Image src={Logo} alt="RecoinLogo" height={40} width={40} />
         </Link>

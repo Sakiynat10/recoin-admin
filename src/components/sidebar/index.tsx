@@ -26,7 +26,7 @@ import {
 const Sidebar = () => {
 
   return (
-    <Command className='bg-secondary rounded-none px-1'>
+    <Command className='fixed w-[300] top-[60px] pt-5 bg-secondary rounded-none px-1'>
       <CommandInput placeholder="Type a command or search..." />
       <CommandList className="max-h-[100vh]">
         <CommandEmpty>No results found.</CommandEmpty>
